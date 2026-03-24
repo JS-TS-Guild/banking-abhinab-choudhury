@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "lib": ["ES2015"],
     "baseUrl": "src", // Set the base URL to the src directory
     "paths": {
-      "@/*": ["*"] // Optional: Map '@/' to the src directory
-    }
-  }
+      "@/*": ["*"], // Optional: Map '@/' to the src directory
+    },
+  },
 }
